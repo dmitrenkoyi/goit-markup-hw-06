@@ -530,7 +530,7 @@ transition: fill 250ms var(--timing-function);
 fill: var(--accent-color-blue) ;
 }
 
-/* Форма внетри модалки */
+/* Форма внутри модалки */
 .form{ 
 display: flex;
 flex-direction: column;
@@ -570,7 +570,8 @@ border-radius: 4px;
 transition: border 250ms var(--timing-function);  
 }
 .form-input:hover,
-.form-input:focus{
+.form input:focus, .comment textarea:focus {
+outline: 0;
 border:1px solid var(--accent-color-blue) ;
 }
 
